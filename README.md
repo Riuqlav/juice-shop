@@ -1,4 +1,4 @@
-# ![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
+# ![Juice Shop Logo](https://raw.githubusercontent.com/juice-shop/juice-shop/master/frontend/src/assets/public/images/JuiceShop_Logo_100px.png) OWASP Juice Shop
 
 [![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)
 [![GitHub release](https://img.shields.io/github/release/juice-shop/juice-shop.svg)](https://github.com/juice-shop/juice-shop/releases/latest)
@@ -25,32 +25,32 @@
 > ([@coderPatros' wife](https://twitter.com/coderPatros))
 
 OWASP Juice Shop is probably the most modern and sophisticated insecure web application! It can be used in security
-trainings, awareness demos, CTFs and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the
+training, awareness demos, CTFs, and as a guinea pig for security tools! Juice Shop encompasses vulnerabilities from the
 entire
 [OWASP Top Ten](https://owasp.org/www-project-top-ten) along with many other security flaws found in real-world
 applications!
 
 ![Juice Shop Screenshot Slideshow](screenshots/slideshow.gif)
 
-For a detailed introduction, full list of features and architecture overview please visit the official project page:
+For a detailed introduction, full list of features, and architecture overview please visit the official project page:
 <https://owasp-juice.shop>
 
 ## Table of contents
 
 - [Setup](#setup)
-    - [Deploy on Heroku (free ($0/month) dyno)](#deploy-on-heroku-free-0month-dyno)
-    - [From Sources](#from-sources)
-    - [Packaged Distributions](#packaged-distributions)
-    - [Docker Container](#docker-container)
-    - [Vagrant](#vagrant)
-    - [Amazon EC2 Instance](#amazon-ec2-instance)
-    - [Azure Container Instance](#azure-container-instance)
-    - [Google Compute Engine Instance](#google-compute-engine-instance)
+  - [Deploy on Heroku (free ($0/month) dyno)](#deploy-on-heroku-free-0month-dyno)
+  - [From Sources](#from-sources)
+  - [Packaged Distributions](#packaged-distributions)
+  - [Docker Container](#docker-container)
+  - [Vagrant](#vagrant)
+  - [Amazon EC2 Instance](#amazon-ec2-instance)
+  - [Azure Container Instance](#azure-container-instance)
+  - [Google Compute Engine Instance](#google-compute-engine-instance)
 - [Demo](#demo)
 - [Documentation](#documentation)
-    - [Node.js version compatibility](#nodejs-version-compatibility)
-    - [Troubleshooting](#troubleshooting)
-    - [Official companion guide](#official-companion-guide)
+  - [Node.js version compatibility](#nodejs-version-compatibility)
+  - [Troubleshooting](#troubleshooting)
+  - [Official companion guide](#official-companion-guide)
 - [Contributing](#contributing)
 - [References](#references)
 - [Merchandise](#merchandise)
@@ -86,7 +86,7 @@ For a detailed introduction, full list of features and architecture overview ple
    clone [your own fork](https://github.com/juice-shop/juice-shop/fork)
    of the repository)
 3. Go into the cloned folder with `cd juice-shop`
-4. Run `npm install` (only has to be done before first start or when you change the source code)
+4. Run `npm install` (only has to be done before the first start or when you change the source code)
 5. Run `npm start`
 6. Browse to <http://localhost:3000>
 
@@ -112,10 +112,8 @@ For a detailed introduction, full list of features and architecture overview ple
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/bkimminich/juice-shop.svg)](https://hub.docker.com/r/bkimminich/juice-shop)
 ![Docker Stars](https://img.shields.io/docker/stars/bkimminich/juice-shop.svg)
-[![](https://images.microbadger.com/badges/image/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop
-"Get your own image badge on microbadger.com")
-[![](https://images.microbadger.com/badges/version/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop
-"Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/bkimminich/juice-shop.svg)](https://microbadger.com/images/bkimminich/juice-shop "Get your own version badge on microbadger.com")
 
 1. Install [Docker](https://www.docker.com)
 2. Run `docker pull bkimminich/juice-shop`
@@ -186,8 +184,8 @@ gcloud compute firewall-rules create juice-rule --allow tcp:3000
 Feel free to have a look at the latest version of OWASP Juice Shop:
 <http://demo.owasp-juice.shop>
 
-> This is a deployment-test and sneak-peek instance only! You are __not
-> supposed__ to use this instance for your own hacking endeavours! No
+> This is a deployment-test and sneak-peek instance only! You are **not
+> supposed** to use this instance for your hacking endeavors! No
 > guaranteed uptime! Guaranteed stern looks if you break it!
 
 ## Documentation
@@ -203,7 +201,7 @@ OWASP Juice Shop officially supports the following versions of
 offered accordingly.
 
 | node.js | Supported            | Tested             | [Packaged Distributions](#packaged-distributions) | [Docker images](#docker-container) from `master` | [Docker images](#docker-container) from `develop` |
-|:--------|:---------------------|:-------------------|:--------------------------------------------------|:-------------------------------------------------|:--------------------------------------------------|
+| :------ | :------------------- | :----------------- | :------------------------------------------------ | :----------------------------------------------- | :------------------------------------------------ |
 | 19.x    | :x:                  | :x:                |                                                   |                                                  |                                                   |
 | 18.x    | :heavy_check_mark:   | :heavy_check_mark: | Windows (`x64`), MacOS (`x64`), Linux (`x64`)     |                                                  |                                                   |
 | 17.x    | (:heavy_check_mark:) | :x:                |                                                   |                                                  |                                                   |
@@ -232,7 +230,7 @@ guide. If this does not solve your issue please post your specific problem or qu
 [![Write Goodreads Review](https://img.shields.io/badge/goodreads-write%20review-49557240.svg)](https://www.goodreads.com/review/edit/49557240)
 
 OWASP Juice Shop comes with an official companion guide eBook. It will give you a complete overview of all
-vulnerabilities found in the application including hints how to spot and exploit them. In the appendix you will even
+vulnerabilities found in the application including hints on how to spot and exploit them. In the appendix, you will even
 find complete step-by-step solutions to every challenge. Extensive documentation of
 [custom re-branding](https://pwning.owasp-juice.shop/part1/customization.html),
 [CTF-support](https://pwning.owasp-juice.shop/part1/ctf.html),
@@ -241,7 +239,7 @@ and much more is also included.
 
 [Pwning OWASP Juice Shop](https://leanpub.com/juice-shop) is published under
 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/)
-and is available **for free** in PDF, Kindle and ePub format on LeanPub. You can also
+and is available **for free** in PDF, Kindle, and ePub format on LeanPub. You can also
 [browse the full content online](https://pwning.owasp-juice.shop)!
 
 [![Pwning OWASP Juice Shop Cover](https://raw.githubusercontent.com/bkimminich/pwning-juice-shop/master/cover_small.jpg)](https://leanpub.com/juice-shop)
@@ -261,24 +259,24 @@ We are always happy to get new contributors on board! Please check
 
 ## References
 
-Did you write a blog post, magazine article or do a podcast about or mentioning OWASP Juice Shop? Or maybe you held or
-joined a conference talk or meetup session, a hacking workshop or public training where this project was mentioned?
+Did you write a blog post, magazine article, or do a podcast about or mention OWASP Juice Shop? Or maybe you held or
+joined a conference talk or meetup session, a hacking workshop, or public training where this project was mentioned?
 
 Add it to our ever-growing list of [REFERENCES.md](REFERENCES.md) by forking and opening a Pull Request!
 
 ## Merchandise
 
-* On [Spreadshirt.com](http://shop.spreadshirt.com/juiceshop) and
+- On [Spreadshirt.com](http://shop.spreadshirt.com/juiceshop) and
   [Spreadshirt.de](http://shop.spreadshirt.de/juiceshop) you can get some swag (Shirts, Hoodies, Mugs) with the official
   OWASP Juice Shop logo
-* On
+- On
   [StickerYou.com](https://www.stickeryou.com/products/owasp-juice-shop/794)
   you can get variants of the OWASP Juice Shop logo as single stickers to decorate your laptop with. They can also print
-  magnets, iron-ons, sticker sheets and temporary tattoos.
+  magnets, iron-ons, sticker sheets, and temporary tattoos.
 
 The most honorable way to get some stickers is to
 [contribute to the project](https://pwning.owasp-juice.shop/part3/contribution.html)
-by fixing an issue, finding a serious bug or submitting a good idea for a new challenge!
+by fixing an issue, finding a serious bug, or submitting a good idea for a new challenge!
 
 We're also happy to supply you with stickers if you organize a meetup or conference talk where you use or talk about or
 hack the OWASP Juice Shop! Just
@@ -291,7 +289,7 @@ or [the project leader](mailto:bjoern.kimminich@owasp.org) to discuss your plans
 
 The OWASP Foundation gratefully accepts donations via Stripe. Projects such as Juice Shop can then request reimbursement
 for expenses from the Foundation. If you'd like to express your support of the Juice Shop project, please make sure to
-tick the "Publicly list me as a supporter of OWASP Juice Shop" checkbox on the donation form. You can find our more
+tick the "Publicly list me as a supporter of OWASP Juice Shop" checkbox on the donation form. You can find out more
 about donations and how they are used here:
 
 <https://pwning.owasp-juice.shop/part3/donations.html>
